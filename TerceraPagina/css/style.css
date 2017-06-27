@@ -1,0 +1,24 @@
+body{
+	
+}
+
+
+
+.divHijo{
+	background: #ff8000;
+	width: 400px;
+	padding: 20px;
+	border:10px solid #16E316;
+	margin: 200px 500px;
+}
+
+.divPadre{
+	background: #ff8000;
+	padding: 30px;
+	border: 10px solid #16E316;
+
+	background: blue;
+	position: absolute;
+	top: 500px;
+	right: 600px;
+}

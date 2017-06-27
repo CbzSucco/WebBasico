@@ -1,0 +1,127 @@
+	@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+
+body{
+	background: #DCF8E4; /* con ctrl+shift+c salen los codigos de los colores*/
+	margin:0px;
+}
+
+h1{
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px
+	font: ;
+}
+
+/*Esto es una clase*/
+.titulo{
+	background-color: black; 
+}
+
+/*haciendo referencia a todas las listas desrodenadas se les da una instrucció*/
+ul{
+	list-style: none;/*en este caso es quitarles las biñetas*/
+}
+
+/*formato para los links*/
+	a{	
+		text-decoration: none;
+		color: white;
+	}
+
+/*para cuando pase el mouse encima cambie de color*/
+a:hover{
+	color: #ccc;
+}
+
+
+.menu-navegacion {
+	text-align: center;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 28px;		
+}
+
+li{
+	display: inline; /*que lo enlistado aparezca en una sola linea*/
+}
+
+.consalto{
+	display: block;
+}
+
+/*estos son los cuadros del menu principal*/
+.menu-navegacion a{
+	font-family: 'Merriweather Sans', sans-serif;
+	display: inline-block;
+	background: black;
+	color: white;
+	width: 100px;
+	height: 15px;
+	font-size: 12px;
+	padding: 10px;
+	margin: 0px -1px 0px -1px;
+}
+
+li:hover a{
+	background: #ccc;
+}
+
+li.activo a{
+	background: #ccc;
+}
+
+
+img.mediana{
+  width: 400px; height: 200px;
+}
+
+.informacion-personal{
+	font-family: 'Merriweather Sans', sans-serif;
+	width: 30%;
+	font-size: 16px;
+}
+
+.footer{
+	background: #817D7D;
+	padding: 20px;
+	position: absolute-centered;
+}
+
+.center-just{
+
+	text-align: center;
+	text-align: justify;
+}		
+
+.center-just li{
+	text-align: center;
+	text-align: justify;
+}
+
+
+/*
+table {
+
+	border: 1px solid black;
+	width: 700px;
+}
+
+
+td { 
+	border: 1px solid black;
+	text-align: center;
+	text-align: justify;
+	padding: 8px;
+ }*/
+
+ table, th, td
+{
+	border: 5px solid #ccc;
+	border-collapse: collapse;
+	font-size: 30px;
+}
+
+
+

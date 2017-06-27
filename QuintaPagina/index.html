@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Selectores por Atributos</title>
+	<style>
+		/* etiqueta[atributo]{} */
+		a[target=_blank]{
+			background-color: gray;
+		}
+
+		p[lang=en]{
+			background-color: yellow;
+		}
+
+	</style>
+</head>
+<body>
+	<p>Cualquier etiqueta 'a' que tenga el atributo target será de color gris</p>
+	<a href="http://www.w3school.com">w3school.com</a>
+	<a href="http://www.facebook.com" target="_blank">Facebook</a>
+	<a href="http://www.wikipedia.com" target="_top">Wikipedia</a>
+	<a href="http://www.youtube.com" target="_blank">Youtube</a>
+
+	<p>¿Qué pasará aquí?</p>
+	<p lang="es">hola</p>
+	<p lang="en">hola</p>
+	<p lang="es">hola</p>
+	<p lang="en">hola</p>
+	<p lang="es">hola</p>
+	
+</body>
+</html>

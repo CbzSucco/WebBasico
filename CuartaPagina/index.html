@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Selectores Avanzados</title>
+	<style>	
+		/*
+		elemento:nth-child(numero_de_hijo_a
+		_aplicar_estilo){
+			
+		}
+		*/
+		span:nth-child(2n){
+			background-color: yellow;
+		}
+		
+		span:nth-child(5){
+			background-color: red;
+		}
+
+		/*Para declarar la diferencia de un padre con un hijo:
+			padre>hijo{
+		
+			}
+		*/
+		div > h2{
+			background-color: gray;
+
+		img{
+			width: 50%;
+			height: 50%;
+		}
+
+		}
+
+		div + p{ /* Cualquier parrrafo que esté subsecuente al div será verde*/
+			background-color: green;
+		}
+
+
+
+		
+	</style>
+</head>
+	<body>
+		<span>Primer Span</span>
+		<span>Segundo Span</span>
+		<span>Tercer Span</span>
+		<span>Cuarto Span</span>
+		<span>Quinto Span</span>
+		<span>Sextos Span</span>
+		<span>Septimo Span</span>
+		<span>Octavo Span</span>
+		<span>Noveno Span</span>				
+	
+	<div>
+		<h2>Soy un tanque</h2>
+		<img src="img/tanque.jfif">
+		<p>Peso Total: 56 toneladas</p>
+		<p>Velocidad mas 40km por hora</p>
+		<p>Armamento principal: cañones</p>
+	</div>
+
+	<div>
+		<a><p>No tengo estilo porque...?--> no soy hijo dirrecto de div:( </p></a>
+	</div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nesciunt nobis delectus, eos ipsum ratione numquam quam in ipsa est, repellendus explicabo voluptatem suscipit, doloremque fugiat? Corporis necessitatibus qui ipsa.</p>
+
+	<div>
+		<h4>Soy un h4 dentro de un div</h4>
+		<p>Soy un parrafo "p"</p>
+	</div>
+	<p>Soy verde</p>
+
+	</body>
+</html>

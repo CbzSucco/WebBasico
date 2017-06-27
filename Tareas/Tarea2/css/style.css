@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+
+body{
+	background: #DCF8E4; /* con ctrl+shift+c salen los codigos de los colores*/
+	margin:0px;
+}
+
+
+/*Esto es una clase*/
+.titulo{
+	background-color: #4BCEF9; 
+}
+img{
+	padding-top: 40px;
+
+}
+
+
+h1,h3{
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	text-align: center;
+	
+}
+
+a{	
+	text-decoration: none;
+	color: #706E6E;
+}
+
+
+.menu-navegacion {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 28px;
+}
+
+/*haciendo referencia a todas las listas desrodenadas se les da una instrucción*/
+.sinbiñetas{
+	list-style: none;/*en este caso es quitarles las biñetas*/
+	
+}
+/*formato para los links*/
+/*para cuando pase el mouse encima cambie de color*/
+a:hover{
+	color: #ccc;
+}
+.center{
+
+	text-align: center;
+	/*text-align: justify;*/
+}
+
+.just{
+	text-align: justify;
+}
+.informacion-personal{
+	font-family: 'Poppins', sans-serif;
+	width: 40%;
+	font-size: 16px;
+}
+
+.footer {
+	background: #817D7D;
+	color: black;
+	padding: 2px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+
+.color{
+	color: black;
+}
+
+
+.linea {
+	display: inline; /*que lo enlistado aparezca en una sola linea*/
+	padding: 0px;
+}
+
+/*
+.center-just li{
+	text-align: center;
+	text-align: justify;
+}*/
+
+
+/*
+li{
+	display: inline; /*que lo enlistado aparezca en una sola linea
+}
+
+.consalto{
+	display: block;
+}
+
+/*estos son los cuadros del menu principal
+.menu-navegacion a{
+	font-family: 'Merriweather Sans', sans-serif;
+	display: inline-block;
+	background: black;
+	color: white;
+	width: 100px;
+	height: 15px;
+	font-size: 12px;
+	padding: 10px;
+	margin: 0px -1px 0px -1px;
+}
+
+li:hover a{
+	background: #ccc;
+}
+
+li.activo a{
+	background: #ccc;
+}
+
+
+img.mediana{
+  width: 400px; height: 200px;
+}
+
+
+
+
+
+
+/*
+table {
+
+	border: 1px solid black;
+	width: 700px;
+}
+
+
+td { 
+	border: 1px solid black;
+	text-align: center;
+	text-align: justify;
+	padding: 8px;
+ }*/
+
+ table, th, td
+{
+	border: 5px solid #ccc;
+	border-collapse: collapse;
+	font-size: 30px;
+}
+
+
+

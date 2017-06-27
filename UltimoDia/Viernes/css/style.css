@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+	font-family: 'Poppins', sans-serif;
+	background-size: 1200px;
+}
+
+/*#caja4{ /*#estamos llamando una identificación, así como en python*/
+	/*width: 900px;
+	height: 400px;
+}
+/*all print screen*/
+
+/*Estilos para Tablets*/
+/*@media only screen and (min-width: 768px) and (max-width: 940px){
+	#caja4{
+	width: 600px;
+		
+	}
+}
+
+/*Estilo para smrtphones*/
+/*@media only screen and (min-width: 400px) and (max-width: 767px){
+	#caja4{
+	width: 400px;
+	border: none;
+	}
+}
+*/
+
+
+.paneltable{
+	width: 600px;
+	height: 20px;
+}
+
+ table, th, td
+{
+
+	border: 5px solid #ccc;
+	border-collapse: collapse;
+	font-size: 22px;
+}
+
+
+
+
+.barras-colores{
+	width: 400px;
+	
+}
